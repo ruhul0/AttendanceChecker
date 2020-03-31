@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login"
+    android:layout_gravity="center"
+    >
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:fontFamily="@font/adamina"
+        android:gravity="center"
+        android:lineSpacingExtra="30dp"
+        android:text="Attendance Checker"
+
+        android:shadowColor="@color/colorAccent"
+        android:textColor="@color/colorPrimaryDark"
+        android:shadowDx="-2"
+        android:shadowDy="-2"
+        android:shadowRadius="1"
+
+        android:textSize="30dp"
+        android:textStyle="bold|italic" />
+
+
+
+
+        <Button
+            android:layout_marginTop="25dp"
+            android:id="@+id/report"
+            android:layout_width="160dp"
+            android:layout_height="55dp"
+            android:background="@drawable/button"
+            android:fontFamily="sans-serif-black"
+            android:text="Report"
+            android:textColor="#FBFBFB"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="130dp"
+ />
+
+    <Button
+        android:layout_marginTop="35dp"
+        android:id="@+id/camera1"
+        android:layout_width="160dp"
+        android:layout_height="55dp"
+        android:background="@drawable/button"
+        android:fontFamily="sans-serif-black"
+        android:text="Camera"
+        android:textColor="#FBFBFB"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="130dp"
+        />
+
+</LinearLayout>
